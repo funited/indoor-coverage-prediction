@@ -1,7 +1,13 @@
 # Indoor-Coverage-Prediction
 Codes and data for the implementation of coverage prediction for complex indoor environments.
+
+Setup of the indoor environment: 
 <img width="354" height="177" alt="image" src="https://github.com/user-attachments/assets/22027aca-2076-4a5c-97e9-ac4aab1654b0" />
 
+Model Structure 
+<img width="687" height="250" alt="image" src="https://github.com/user-attachments/assets/f4d780e7-d539-4902-a3a7-88d37e7324cf" />
+
+Results 
 <img width="712" height="802" alt="image" src="https://github.com/user-attachments/assets/ec4d5849-c0e0-452b-9f47-5c6b6700d747" />
 
 # Usage
