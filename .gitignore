@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Notebooks - cell outputs (optional - see note below)
+# *.ipynb_meta
+
+# Trained model checkpoints (too big for git)
+*.h5
+*.keras
+*.pt
+*.ckpt
+
+# Training artifacts
+logs/
+artifacts/
+checkpoints/
+
+# Hugging Face cache (if anyone clones and runs locally)
+hf_cache/
+.cache/
+
+# Data - already lives on Hugging Face, don't double-store
+data/
+*.jpg
+*.png
+*.npy
+# Allow images intended for the README
+!images/*.png
+!images/*.jpg
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+
+# Secrets - never commit
+.env
+*.pem
+secrets.txt
