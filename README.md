@@ -7,4 +7,4 @@ Codes and data for the implementation of coverage prediction for complex indoor 
 # Usage
 You can try data collected at either 5 or 28 GHz, templates can be found in 'notebook_usage'. Set "split = High" to work with receiver grid at 40 inches (1.06m) above the ground, set "split = Low" to work with receiver grid at 30 inches (0.76m) above the ground
 # Publication 
-https://ieeexplore.ieee.org/abstract/document/10945552
+Please cite https://ieeexplore.ieee.org/abstract/document/10945552 in your work if this project helps 
