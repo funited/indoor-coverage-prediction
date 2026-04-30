@@ -15,30 +15,46 @@ from pathlib import Path
 from typing import Tuple
 import numpy as np
 from PIL import Image
+import os
 from huggingface_hub import snapshot_download
+from huggingface_hub.utils import LocalEntryNotFoundError
 
 REPO_ID = "funited/Indoor_Coverage_Prediction"
 IMG_WIDTH = 256
 IMG_HEIGHT = 256
 
-
-def download_dataset(band: str, split: str, cache_dir: str | None = None) -> Path:
+def download_dataset(
+    band: str,
+    split: str,
+    cache_dir: str | None = None,
+    max_workers: int = 4,
+) -> Path:
     """Download (or reuse cached) dataset folders for a given band/split.
 
     Args:
-        band:      '5GHz' or '28GHz'
-        split:     'Low' or 'High'
-        cache_dir: optional local dir; if None, uses Hugging Face's default cache.
-
-    Returns:
-        Path to the local directory containing the requested band/split.
+        band:        '5GHz' or '28GHz'
+        split:       'Low' or 'High'
+        cache_dir:   local dir for caching. Strongly recommended on Colab —
+                     point at a Drive folder so re-runs don't re-download.
+        max_workers: parallel HEAD/GET requests. Lower = gentler on HF rate
+                     limits. Default 4 (HF's default is 8).
     """
-    local_root = snapshot_download(
+    pattern = f"{band}/{split}/**"
+    common = dict(
         repo_id=REPO_ID,
         repo_type="dataset",
-        allow_patterns=[f"{band}/{split}/**"],
+        allow_patterns=[pattern],
         local_dir=cache_dir,
+        max_workers=max_workers,
     )
+
+    # If the data is already fully cached locally, skip every network call.
+    # This avoids the HEAD-storm that triggers 429s on re-runs.
+    try:
+        local_root = snapshot_download(**common, local_files_only=True)
+    except (LocalEntryNotFoundError, FileNotFoundError):
+        local_root = snapshot_download(**common)  # fall through to network
+
     return Path(local_root) / band / split
 
 
