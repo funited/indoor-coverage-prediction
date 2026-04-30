@@ -1,3 +1,4 @@
+For those who prefer "copy & paste" please check out the link in 'Project on Drive"
 # Indoor-Coverage-Prediction
 Codes and data for the implementation of coverage prediction for complex indoor environments 
 <img width="354" height="177" alt="image" src="https://github.com/user-attachments/assets/22027aca-2076-4a5c-97e9-ac4aab1654b0" />
