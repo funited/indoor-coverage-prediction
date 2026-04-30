@@ -9,7 +9,7 @@ You can try data collected at either 5 or 28 GHz, templates can be found in 'not
 
 You can find the dataset on Hugging Face: https://huggingface.co/datasets/funited/Indoor_Coverage_Prediction
 
-For those who prefer "copy & paste" please check out the link in 'Project on Drive"
+For those who prefer "copy & paste" please check out the link in 'Project on Drive".
 # License
 MIT
 
