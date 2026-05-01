@@ -31,7 +31,8 @@ Please cite [Transfer Learning and Double U-Net Empowered Wave Propagation Model
 # Key Contributors
 <img width="229" height="58" alt="image" src="https://github.com/user-attachments/assets/ac95ebca-1937-43d4-9375-893af20be85b" />
 
-<img width="537" height="69" alt="image" src="https://github.com/user-attachments/assets/b830b522-89bd-4161-90bd-1d402bb8d479" /> 
+<img width="189" height="69" alt="image" src="https://github.com/user-attachments/assets/d09a4dbd-dd45-410a-9e48-94bd4748c65b" />
+
 
 
 # Feedback
