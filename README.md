@@ -1,9 +1,9 @@
 # Indoor-Coverage-Prediction
-Coverage(heatmap) prediction for complex indoor environments using machine learning methods is shared in this project.
+Coverage (Heatmap) prediction for complex indoor environments using machine learning methods is shared in this project.
 
 The indoor environment is defined by its fundamental structure, such as the arrangement of walls, windows, and doorways, alongside varying configurations of furniture placement, an Attention U-Net with efficient networks as the backbone is introduced to predict signal propagation in environments with a variety of objects, effectively simulating the diverse range of furniture typically found in indoor spaces. 
 
-
+Ray-based 3D wireless simulation is performed on [Wireless InSite®](https://www.remcom.com/wireless-insite-propagation-software)
 
 ***Setup of the indoor environment in Wireless InSite®***: 
 <img width="354" height="177" alt="image" src="https://github.com/user-attachments/assets/22027aca-2076-4a5c-97e9-ac4aab1654b0" />
