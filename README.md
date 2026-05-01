@@ -24,5 +24,10 @@ MIT
 # Reference
 Please cite [Transfer Learning and Double U-Net Empowered Wave Propagation Model in Complex Indoor Environment](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=z1chur8AAAAJ&citation_for_view=z1chur8AAAAJ:d1gkVwhDpl0C) in your work if this project helps.
 
+# Key Contributors
+Wireless Insite 
+<img width="229" height="58" alt="image" src="https://github.com/user-attachments/assets/ac95ebca-1937-43d4-9375-893af20be85b" />
+
+
 # Feedback
 For questions and comments, please feel free to contact fun*ited(outlook.com) (remove *)
