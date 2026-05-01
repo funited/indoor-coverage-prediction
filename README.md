@@ -1,7 +1,7 @@
 # Indoor-Coverage-Prediction
 Codes and data for the implementation of coverage prediction for complex indoor environments.
 
-***Setup of the indoor environment***: 
+***Setup of the indoor environment in Wireless Insite***: 
 <img width="354" height="177" alt="image" src="https://github.com/user-attachments/assets/22027aca-2076-4a5c-97e9-ac4aab1654b0" />
 
 ***Model Structure***: 
