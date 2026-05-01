@@ -11,7 +11,9 @@ Codes and data for the implementation of coverage prediction for complex indoor 
 <img width="712" height="802" alt="image" src="https://github.com/user-attachments/assets/ec4d5849-c0e0-452b-9f47-5c6b6700d747" />
 
 # Usage
-You can try data collected at either 5 GHz or 28 GHz, templates can be found in 'notebook_usage'. Set "split = High" to work with receiver grid at 40 inches (1.06m) above the ground, set "split = Low" to work with receiver grid at 30 inches (0.76m) above the ground.
+You can try data collected at either 5 GHz or 28 GHz, templates can be found in 'notebook_usage'. 
+
+Set "split = High" to work with receiver grid at 40 inches (1.06m) above the ground; "split = Low" to work with receiver grid at 30 inches (0.76m) above the ground.
 
 You can find the dataset on Hugging Face: https://huggingface.co/datasets/funited/Indoor_Coverage_Prediction
 
