@@ -22,7 +22,7 @@ For those who prefer "copy & paste" please check out the link in 'Project on Dri
 MIT
 
 # Reference
-Please cite https://ieeexplore.ieee.org/abstract/document/10945552 in your work if this project helps.
+Please cite [Transfer Learning and Double U-Net Empowered Wave Propagation Model in Complex Indoor Environment](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=z1chur8AAAAJ&citation_for_view=z1chur8AAAAJ:d1gkVwhDpl0C) in your work if this project helps.
 
 # Feedback
 For questions and comments, please feel free to contact fun*ited(outlook.com) (remove *)
